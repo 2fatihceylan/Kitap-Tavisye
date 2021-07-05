@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1000px;
+            height: 150px;
+        }
+
+        .auto-style2 {
+            width: 1000px;
+            height: 150px;
+            background-color: #669999;
+        }
+
+        .auto-style4 {
+            background-color: #669999;
+            height: 500px;
+            width: 720px;
+        }
+        .auto-style5 {
+            width: 1001px;
+            height: 149px;
+        }
+        .auto-style9 {
+            width: 1000px;
+            height: 20px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 150px; width: 1000px; margin-left: 150px;" class="auto-style2">
+            <img alt="" class="auto-style5" src="resim/bookshelves-wallpaper-1920x1200.jpg" /></div>
+        <div style="height: 20px; width: 1000px; margin-left: 150px;" class="auto-style1">
+        </div>
+        <div style="margin-left: 150px;" class="auto-style9">
+        </div>
+
+
+        <div style="height:500px; width:1000px; margin-left:150px;">
+               <div style="margin-left:150px; background-color:white;" class="auto-style4">
+                  
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+               
+               </div>
+
+          
+
+        </div>
+
+    </form>
+</body>
+</html>
+
+
